@@ -1,0 +1,7 @@
+dist
+public
+.cache
+coverage
+og-image
+package.json
+node_modules
