@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import { css, Styled } from "theme-ui"
-import Header from "gatsby-theme-blog/src/components/header"
+import React from 'react'
+import { Link } from 'gatsby'
+import { css, Styled } from 'theme-ui'
+import Header from 'gatsby-theme-blog/src/components/header'
 
 export default props => (
   <Header {...props}>
@@ -15,11 +15,10 @@ export default props => (
         fontWeight: `bold`,
         textDecoration: `none`,
         color: `inherit`,
-        ":hover": {
+        ':hover': {
           textDecoration: `underline`,
         },
-      })}
-    >
+      })}>
       Notes
     </Styled.a>
   </Header>
