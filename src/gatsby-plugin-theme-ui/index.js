@@ -1,14 +1,5 @@
-// src/gatsby-plugin-theme-ui/index.js
+// eslint-disable-next-line no-unused-vars
 import baseTheme from 'gatsby-theme-blog/src/gatsby-plugin-theme-ui'
-
-// export default {
-//   ...baseTheme,
-//   colors: {
-//     ...baseTheme.colors,
-//     text: '#111',
-//     background: '#fff',
-//   },
-// }
 
 export default {
   initialColorMode: 'light',

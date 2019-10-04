@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.js{,on}\" \"**/*.md\"  \"**/*.mdx\"",
-    "lint": "eslint . --fix --ext .js,.md,.mdx"
+    "lint": "eslint . --fix --ext .js,.md,.mdx",
+    "start": "gatsby develop"
   },
   "dependencies": {
     "@emotion/core": "^10.0.20",
